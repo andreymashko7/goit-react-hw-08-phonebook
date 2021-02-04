@@ -1,0 +1,162 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1,
+h2,
+h3 {
+  margin: 15px;
+}
+
+/* стили для  страницы homeview */
+
+.homeView-title {
+  margin-top: 175px;
+}
+
+.homeView-info {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.homeView-text {
+  font-size: 18px;
+}
+
+.homeView-link {
+  text-decoration: none;
+  color: #0366d6;
+  cursor: pointer;
+  border-bottom: 1px solid;
+  border-bottom-color: #0366d6;
+}
+.homeView-link:hover {
+  color: #fd1010;
+  border-bottom-color: #fd1010;
+}
+
+.phonebook-icon {
+  margin-right: 15px;
+}
+
+/* стили для страницы регистрации и логина */
+
+input {
+  font-size: 13px;
+  padding: 6px 0 4px 10px;
+  border: 1px solid #cecece;
+  background: #f6f6f6;
+  border-radius: 8px;
+}
+
+form {
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.Button {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 6px 13px;
+  border-radius: 5px;
+  background-color: #49d2dd;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  text-align: center;
+  display: block;
+  color: #fff;
+  border: 0;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 400;
+  min-width: 150px;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.Button:hover,
+.Button:focus {
+  background-color: #31adeb;
+}
+
+/* стили для user-menu */
+
+.user-menu {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+}
+
+.Button-exit {
+  margin-left: 15px;
+  padding: 4px 15px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  border: 0;
+  background-color: #49d2dd;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.Button-exit:hover {
+  background-color: #eb1212;
+}
+
+.name {
+  /* font-style: italic; */
+  color: #0366d6;
+}

@@ -1,0 +1,10 @@
+.label {
+  margin-bottom: 15px;
+}
+
+h1,
+h2 {
+  justify-content: center;
+
+  display: flex;
+}

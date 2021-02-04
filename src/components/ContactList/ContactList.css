@@ -1,0 +1,41 @@
+.Contacts__item {
+  font-size: 21px;
+  margin-left: auto;
+  width: 350px;
+  margin-right: auto;
+  display: flex;
+  font-weight: 400;
+  align-items: baseline;
+}
+
+.ButtonDelete {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 6px 13px;
+  border-radius: 5px;
+  background-color: #49d2dd;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  text-align: center;
+  display: block;
+  color: #fff;
+  border: 0;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 400;
+  min-width: 100px;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.ButtonDelete:hover,
+.ButtonDelete:focus {
+  background-color: #eb1212;
+}
+
+.Contacts__text {
+  margin-top: 5px;
+}
